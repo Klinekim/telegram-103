@@ -36,20 +36,15 @@ mnemonic==0.21
 qrcode==7.4.2
 blinker==1.8.1
 flask===3.0.3
-requests
 terminaltables
 pyzmq
-flask
 termcolor
-beautifulsoup4
 websocket-client
 ffmpy
--r requirements.txt
 bumpversion
 sphinx-click
 tox>=1.8
 codecov
-pysocks
-mock; python_version < '3.6'
-asyncmock; python_version < '3.8'
-async-case; python_version < '3.8'
+mock; python_version<'3.6'
+asyncmock; python_version<'3.8'
+async-case; python_version<'3.8'
